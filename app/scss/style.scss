@@ -243,6 +243,11 @@ body {
             }
         }
         &__video {
+            position: relative;
+            .video {
+                width: 100%;
+                border-radius: 10px;
+            }
             img {
                 width: 100%;
                 height: auto;

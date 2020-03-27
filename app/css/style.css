@@ -178,9 +178,14 @@ body {
       font-weight: bold;
       line-height: 51px;
       margin-bottom: 55px; }
-    .section-promo-1__video img {
-      width: 100%;
-      height: auto; }
+    .section-promo-1__video {
+      position: relative; }
+      .section-promo-1__video .video {
+        width: 100%;
+        border-radius: 10px; }
+      .section-promo-1__video img {
+        width: 100%;
+        height: auto; }
     @media (max-width: 767px) {
       .section-promo-1 {
         flex-direction: column; }
