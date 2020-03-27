@@ -182,7 +182,8 @@ body {
       position: relative; }
       .section-promo-1__video .video {
         width: 100%;
-        border-radius: 10px; }
+        border-radius: 10px;
+        outline: none; }
       .section-promo-1__video img {
         width: 100%;
         height: auto; }
